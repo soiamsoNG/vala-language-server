@@ -1,0 +1,12 @@
+Source: vala-language-server
+Maintainer: Ben Iofel <ben@iofel.me>
+Section: devel
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9)
+
+Package: vala-language-server
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Code Intelligence for Vala
+ This is a language server for Vala that can be used by a number of editor plugins. It provides error reporting, symbol outlines, autocompletion, and other features.
